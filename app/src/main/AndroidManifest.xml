@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".Kuis2Activity" />
         <activity android:name=".Kuis3Activity" />
-        <activity android:name=".Kuis4Activity"></activity>
+        <activity android:name=".Kuis4Activity" />
+        <activity android:name=".Kuis5Activity"></activity>
     </application>
 
 </manifest>
