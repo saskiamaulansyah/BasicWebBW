@@ -7,13 +7,13 @@ import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.ImageView;
 
-public class KuisActivity extends Activity implements View.OnClickListener {
+public class Kuis4Activity extends Activity implements View.OnClickListener {
     ImageView alert, alert2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kuis);
+        setContentView(R.layout.activity_kuis4);
         alert = (ImageView) findViewById(R.id.imageView);
         alert.setOnClickListener(this);
         alert2 = (ImageView) findViewById(R.id.imageView2);
