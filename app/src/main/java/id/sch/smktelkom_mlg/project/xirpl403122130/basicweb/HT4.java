@@ -5,26 +5,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class HT extends AppCompatActivity {
+public class HT4 extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ht);
+        setContentView(R.layout.activity_ht4);
 
-        findViewById(R.id.imageViewHome).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.imageView5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HT.this, MainActivity.class);
+                Intent intent = new Intent(HT4.this, MainActivity.class);
                 startActivity(intent);
             }
         });
 
-        findViewById(R.id.imageViewKe).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.imageView7).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HT.this, HT2.class);
+                Intent intent = new Intent(HT4.this, HT3.class);
                 startActivity(intent);
             }
         });

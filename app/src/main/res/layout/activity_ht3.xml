@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="id.sch.smktelkom_mlg.project.xirpl403122130.basicweb.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView15"
+                android:src="@android:drawable/ic_menu_sort_by_size"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView16"
+                android:src="@android:drawable/ic_media_ff"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView17"
+                android:src="@android:drawable/ic_media_rew"
+                android:layout_marginRight="17dp"
+                android:layout_marginEnd="17dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imageView16"
+                android:layout_toStartOf="@+id/imageView16" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="377dp"
+            android:layout_height="247dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/html"
+            android:layout_weight="0.54" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="3dp"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:textAlignment="center"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cara Membuat Daftar/List di HTML \n"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:text="Dalam HTML, tag list terdiri dari 2 jenis : \n
+                 a. ordered list (berurutan)\n
+                 b. unordered list (tidak berurutan)\n" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. Ordered List \n"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:text=" Ordered list adalah suatu metode mengurutkan daftar dengan menggunakan angka, abjad dan angka romawi pada html.\n" />
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/orde" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:text=" Hasilnya :  \n" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/orde1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n B. Unordered List \n"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:text="Unordered list adalah kebalikannya yaitu metode mengurutkan daftar dengan menggunakan simbol atau special character pada html.  \n" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:text=" Contoh : \n" />
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/unor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:text=" \n Hasil : \n" />
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/unor1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
