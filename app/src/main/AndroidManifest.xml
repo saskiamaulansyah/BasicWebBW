@@ -18,13 +18,11 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_welcome" />
-
+        <activity android:name=".HT" />
         <activity android:name=".KuisActivity" />
         <activity android:name=".Kuis2Activity" />
         <activity android:name=".Kuis3Activity" />
         <activity android:name=".Kuis4Activity" />
         <activity android:name=".Kuis5Activity" />
-
     </application>
-
 </manifest>
