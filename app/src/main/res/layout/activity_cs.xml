@@ -116,14 +116,14 @@
 
             <ImageView
                 android:layout_width="450dp"
-                android:layout_height="200dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/t" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="B. Internal Style Sheet"
+                android:text="\n B. Internal Style Sheet"
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
@@ -153,7 +153,7 @@
                 android:text="Atribut href berfungsi untuk menambahkan lokasi serta nama dokumen CSS yang digunakan.
                 Atribut rel berfungsi untuk menentukan relationship antara dokumen HTML dengan dokumen CSS yang dihubungkan.
               Jika dokumen CSS berada dalam satu lokasi yang sama dengan dokumen HTML, maka cukup menambahkan nama dokumen CSS tersebut
-            sebagai value dari href. Selain itu, untuk dokumen CSS, value dari atribut rel yang perlu ditambahkan adalah stylesheet \n\n" />
+            sebagai value dari href. Selain itu, untuk dokumen CSS, value dari atribut rel yang perlu ditambahkan adalah stylesheet \n\n"
                 android:layout_weight="0.81" />
 
 
