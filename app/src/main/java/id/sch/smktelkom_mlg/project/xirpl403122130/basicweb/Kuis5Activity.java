@@ -2,6 +2,7 @@ package id.sch.smktelkom_mlg.project.xirpl403122130.basicweb;
 
 import android.app.Activity;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
@@ -18,6 +19,15 @@ public class Kuis5Activity extends Activity implements View.OnClickListener {
         alert.setOnClickListener(this);
         alert2 = (ImageView) findViewById(R.id.imageView2);
         alert2.setOnClickListener(this);
+
+
+        findViewById(R.id.imageView18).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Kuis5Activity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
