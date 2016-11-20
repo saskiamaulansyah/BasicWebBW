@@ -24,8 +24,8 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_width="309dp"
-        android:layout_height="106dp"
+        android:layout_width="472dp"
+        android:layout_height="162dp"
         android:id="@+id/imageView1"
         android:src="@drawable/btn_htm"
         android:layout_alignParentTop="true"
@@ -34,13 +34,13 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="39dp"
-        android:layout_height="27dp"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
         android:layout_gravity="center_horizontal" />
 
     <ImageView
-        android:layout_width="309dp"
-        android:layout_height="106dp"
+        android:layout_width="472dp"
+        android:layout_height="162dp"
         android:id="@+id/imageView11"
         android:src="@drawable/btn_cs"
         android:layout_alignParentTop="true"
@@ -50,13 +50,13 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="39dp"
-        android:layout_height="27dp"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
         android:layout_gravity="center_horizontal" />
 
     <ImageView
-        android:layout_width="309dp"
-        android:layout_height="106dp"
+        android:layout_width="472dp"
+        android:layout_height="162dp"
         android:id="@+id/imageView111"
         android:src="@drawable/btn_quiz"
         android:layout_alignParentTop="true"
@@ -65,12 +65,12 @@
         />
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="39dp"
-        android:layout_height="27dp"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
         android:layout_gravity="center_horizontal" />
     <ImageView
-        android:layout_width="309dp"
-        android:layout_height="106dp"
+        android:layout_width="472dp"
+        android:layout_height="162dp"
         android:id="@+id/imageView1111"
         android:src="@drawable/btn_about"
         android:layout_alignParentTop="true"
