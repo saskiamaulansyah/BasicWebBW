@@ -112,10 +112,11 @@
                 mengubah jenis, ukuran, dan warna huruf.\n"
                 android:layout_weight="0.81" />
             <ImageView
-                android:layout_width="226dp"
+                android:layout_width="315dp"
                 android:layout_height="212dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/contohprvl" />
+                android:src="@drawable/contohprvl"
+                android:layout_weight="0.36" />
 
 
             <TextView
@@ -130,7 +131,7 @@
                 android:text="Value CSS adalah nilai dari property. Misalkan untuk property background-color yang digunakan untuk mengubah warna latar belakang dari sebuah selector, value atau nilainya dapat berupa red, blue, black, atau white.\n"
                 android:layout_weight="0.81" />
             <ImageView
-                android:layout_width="226dp"
+                android:layout_width="315dp"
                 android:layout_height="212dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/com" />

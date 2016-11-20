@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Apa itu HTML ? "
+                android:text="Membuat Table pada CSS "
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -94,79 +94,47 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.81"
-                android:text="HTML atau Hypertext Markup Language adalah bahasa markah yang digunakan untuk membuat web. Dengan HTML,
-                dapat ditampilkan konten-konten seperti teks,gambar, video, atau audio pada halaman web.sejarah tentang html \n" />
+                android:text="Berikut ini adalah macam-macam property CSS yang dapat digunakan untuk mengatur tampilan tabel, di antaranya: \n" />
 
             <ImageView
-                android:layout_width="439dp"
-                android:layout_height="150dp"
+                android:layout_width="444dp"
+                android:layout_height="420dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="0.05"
-                android:src="@drawable/dasar" />
+                android:layout_weight="0.17"
+                android:src="@drawable/tbl" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="\n Elemen, Tag, Atribut \n"
+                android:text="\n Desain Table menggunakan CSS \n"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A. Elemen"
+                android:text="Contoh : \n"
                 android:textSize="15sp"
                 android:textStyle="bold" />
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="480dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ts1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.81"
-                android:text=" Elemen HTMLmerupakan komponen yang menetapkan peran sebuah objek dalam dokumen,termasuk struktur dan konten dari objek tersebut.\n" />
+                android:text="Hasil : \n" />
 
             <ImageView
                 android:layout_width="450dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/tagel" />
+                android:src="@drawable/ts2" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="B. TAG"
-                android:textSize="15sp"
-                android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.81"
-                android:text=" Sebuah elemen biasanya direpresentasikan oleh tag. Tag pembuka menandakan elemen tersebut dimulai, dan tag penutup menandakan akhir dari sebuah elemen \n" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/elemen" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="C. Atribut"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.81"
-                android:text="Atribut merupakan informasi tambahan yang dapat kita berikan untuk sebuah elemen. Setiap elemen memiliki atribut yang berbeda-beda, meskipun terdapat beberapa atribut standar yang dapat digunakan oleh semua elemen. Atribut khusus elemen dibuat ketika nilai atribut tersebut memang hanya pantas digunakan untuk elemen tersebut. Misalnya, untuk elemen img yang digunakan untuk menampilkan gambar, terdapat atribut untuk menentukan di mana sumber gambar yang akan ditampilkan di simpan. \n" />
-
-            <ImageView
-                android:layout_width="400dp"
-                android:layout_height="150dp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/atr" />
 
             <RelativeLayout
                 android:layout_width="match_parent"

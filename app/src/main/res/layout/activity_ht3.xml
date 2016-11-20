@@ -110,23 +110,30 @@
                 android:layout_weight="0.81"
                 android:text=" Ordered list adalah suatu metode mengurutkan daftar dengan menggunakan angka, abjad dan angka romawi pada html.\n" />
 
-            <ImageView
-                android:layout_width="450dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/orde" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.81"
-                android:text=" Hasilnya :  \n" />
+                android:text=" Contoh : \n" />
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/order1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:text=" Hasil :  \n" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/orde1" />
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/order2" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -145,13 +152,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.81"
-                android:text=" Contoh : \n" />
+                android:text=" Contoh : \" />
 
             <ImageView
                 android:layout_width="450dp"
                 android:layout_height="200dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/unor" />
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/unorde" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -162,8 +169,8 @@
             <ImageView
                 android:layout_width="450dp"
                 android:layout_height="200dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/unor1" />
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/unorde1" />
 
             <RelativeLayout
                 android:layout_width="match_parent"

@@ -87,10 +87,10 @@
          CSS terdiri atas kumpulan kode-kode yang keberadaannya  sebagai pelengkap agar tampilan dokumen HTML menjadi lebih indah dan dinamis. Berikut ini adalah contoh dokumen CSS. \n" />
 
             <ImageView
-                android:layout_width="439dp"
-                android:layout_height="150dp"
+                android:layout_width="360dp"
+                android:layout_height="300dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="0.05"
+                android:layout_weight="0.37"
                 android:src="@drawable/pengenalan" />
 
 
@@ -132,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:text=" Dengan metode internal style sheet, kita dapat mengatur tampilan beberapa komponen HTML sekaligus yang ditunjuk oleh selector yang sama. Kode CSS yang ditambahkan hanya berlaku untuk komponen-komponen pada dokumen yang bersangkutan.
 
- \n"
+ \n\n"
                 android:layout_weight="0.81" />
 
             <ImageView
@@ -144,7 +144,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="C. Eksternal Style Sheet"
+                android:text="\n C. Eksternal Style Sheet"
                 android:textSize="15sp"
                 android:textStyle="bold" />
             <TextView
@@ -153,7 +153,7 @@
                 android:text="Atribut href berfungsi untuk menambahkan lokasi serta nama dokumen CSS yang digunakan.
                 Atribut rel berfungsi untuk menentukan relationship antara dokumen HTML dengan dokumen CSS yang dihubungkan.
               Jika dokumen CSS berada dalam satu lokasi yang sama dengan dokumen HTML, maka cukup menambahkan nama dokumen CSS tersebut
-            sebagai value dari href. Selain itu, untuk dokumen CSS, value dari atribut rel yang perlu ditambahkan adalah stylesheet \n" />
+            sebagai value dari href. Selain itu, untuk dokumen CSS, value dari atribut rel yang perlu ditambahkan adalah stylesheet \n\n" />
                 android:layout_weight="0.81" />
 
 
@@ -172,6 +172,12 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_gravity="right" />
 
 
 </LinearLayout>
