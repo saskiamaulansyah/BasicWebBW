@@ -12,6 +12,13 @@ public class CS2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cs2);
 
+        findViewById(R.id.imageView20).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(CS2.this, MainActivity.class);
+            }
+        });
 
     }
 }
