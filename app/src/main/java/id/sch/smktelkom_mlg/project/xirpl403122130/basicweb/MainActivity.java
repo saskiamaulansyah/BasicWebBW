@@ -20,10 +20,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.imageView11).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CS.class);
+                startActivity(intent);
+            }
+        });
+
         findViewById(R.id.imageView111).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, KuisActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.imageView1111).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, us.class);
                 startActivity(intent);
             }
         });
